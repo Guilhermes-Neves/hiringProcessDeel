@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Should test the contract feature",
+    "children" : [ {
+      "name" : "Should create a new Contract",
+      "uid" : "66c481cdec74f4b2",
+      "parentUid" : "67349369bf31311a84b9c52b9b69a53c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626259131840,
+        "stop" : 1626259150760,
+        "duration" : 18920
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "67349369bf31311a84b9c52b9b69a53c"
+  }, {
+    "name" : "Should test at a functional level",
+    "children" : [ {
+      "name" : "Should create a new Contract",
+      "uid" : "6981f8a3d0e39b0f",
+      "parentUid" : "de4f6dc7e6179283d46bd08fd9bddacc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626259235643,
+        "stop" : 1626259254799,
+        "duration" : 19156
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "de4f6dc7e6179283d46bd08fd9bddacc"
+  } ]
+}

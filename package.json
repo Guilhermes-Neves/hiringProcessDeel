@@ -1,0 +1,32 @@
+{
+  "name": "deel",
+  "version": "1.0.0",
+  "description": "Automation Test",
+  "main": "index.js",
+  "scripts": {
+    "cypressRun": "cypress run --config video=false --env allure=true",
+    "allureGenerate": "allure generate allure-results --clean",
+    "allureOpen": "allure open allure-report",
+    "test": "npx npm-run-all cypressRun allureGenerate allureOpen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guilhermes-Neves/automationTestDeel.git"
+  },
+  "keywords": [
+    "999203943Gg"
+  ],
+  "author": "Guilherme Neves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guilhermes-Neves/automationTestDeel/issues"
+  },
+  "homepage": "https://github.com/Guilhermes-Neves/automationTestDeel#readme",
+  "dependencies": {
+    "cypress": "^7.7.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.8.4",
+    "cypress-xpath": "^1.6.2"
+  }
+}

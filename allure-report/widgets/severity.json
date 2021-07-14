@@ -1,0 +1,21 @@
+[ {
+  "uid" : "6981f8a3d0e39b0f",
+  "name" : "Should create a new Contract",
+  "time" : {
+    "start" : 1626259235643,
+    "stop" : 1626259254799,
+    "duration" : 19156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66c481cdec74f4b2",
+  "name" : "Should create a new Contract",
+  "time" : {
+    "start" : 1626259131840,
+    "stop" : 1626259150760,
+    "duration" : 18920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
