@@ -1,4 +1,4 @@
-# hiringProcessDeel
+# To run the project
 
 The project was developement using cypress with the following structure
 
